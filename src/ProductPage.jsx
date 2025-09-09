@@ -32,7 +32,7 @@ export default function ProductPage( { product }) {
     }
 
     return(
-        <div className="relative max-w-screen-xl mx-auto flex flex-col justify-center lg:h-screen">
+        <div className="relative max-w-screen-xl mx-auto flex flex-col justify-center lg:h-screen lg:min-h-[50rem]">
             < NavigationBar toggleMenuMobile={setIsMenuMobileVisible} toggleShoppingCart={toggleShoppingCart} cartItems={cartItems}/>
 
             <div className="flex flex-col lg:flex-row lg:gap-24 lg:items-center lg:px-12">
